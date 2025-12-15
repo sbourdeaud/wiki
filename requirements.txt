@@ -1,0 +1,6 @@
+mkdocs
+mkdocs-material
+mkdocs-exporter
+mkdocs-git-authors-plugin
+mkdocs-git-revision-date-localized-plugin
+mkdocs-table-reader-plugin
