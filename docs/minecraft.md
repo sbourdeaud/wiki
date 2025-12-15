@@ -44,3 +44,19 @@ pdf: true
 !!! tips
 
     Recommended resource pack is [Barebone](https://www.curseforge.com/minecraft/texture-packs/bb/download/7051223)
+
+## Using Mod Packs
+
+!!! info
+
+    Mod Packs are collections of mods which are client side modifications that are aimed at enhancing the game.  Not all Mod Packs are compatible with multiplayer servers.
+
+1. Download and install [Modrinth](https://modrinth.com/app)
+2. Launch the *Modrinth* app, click on the right *Playing as* and click on the green icon with a square and arrow to authenticate
+3. Once authenticated, click on the *Discover Content* icon in the left toolbar (the icon that looks like a compass), then search for the Mod Pack you want to install (exp: Chocolate) and install it
+4. If you need to disable some mods in order for the pack to work with a multiplayer server, click on the Mod Pack icon in the left toolbar, then search for the mod you want to disable in the *Search projects* box, then uncheck the mod you want to disable
+5. You will usually want to ioncrease the java memory allocation by clicking the gear icon for the Mod Pack next to *Play*, going into "Java and Memory" and checking *Custom memory allocation* and increasing it to something like 8192 (depending on the amount of memory your computer has available)
+
+!!! warning
+
+    Mod Packs have their own Resource Pack and Shaders Pack folders, so you will probably not find previously installed Resource Packs and Shader Packs and will need to copy them again in the Mod Pack specific folders.
