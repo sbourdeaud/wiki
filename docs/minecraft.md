@@ -24,7 +24,7 @@ pdf: true
     ```
 2. Download the **Iris Shaders** installer from [here](https://www.irisshaders.dev/download)
 3. Double click the downloaded `.jar` file
-4. Start the *Minecraft Launcher App` and you should see an *Iris & Soidum* client selected by default. Click *Play*
+4. Start the *Minecraft Launcher App* and you should see an *Iris & Soidum* client selected by default. Click *Play*
 5. Once in the game, select *Options* > *Video Settings* > *Shader Packs* > *Open Shader Pack Folder*
 6. Download shader packs from [here](https://modrinth.com/discover/shaders?v=1.21.11&g=categories:iris&page=2)
 7. Move the downloaded shader pack into the shader packs folder and select it in game
