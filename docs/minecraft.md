@@ -17,7 +17,8 @@ pdf: true
 
     This assumes you have already installed the Minecraft Java Edition launcher from the XBox App.
 
-1. Install a Java runtime environment on your machine: 
+1. Open a command prompt by pressing ++win+r++ typing `cmd` and pressing ++enter++
+2. Install a Java runtime environment on your machine: 
     ```bash
     winget install -e --id Oracle.JavaRuntimeEnvironment
     ```
