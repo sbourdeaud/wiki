@@ -24,6 +24,10 @@ The "classic" core rule book classes are:
 
 {{ read_csv('assets/csv/classes_core.csv') }}
 
-In addition, in the Humblewood campaign settings, we have:
+In addition to the core classes, we have:
+
+{{ read_csv('assets/csv/classes_additional.csv') }}
+
+Finally in the Humblewood campaign settings, we have:
 
 {{ read_csv('assets/csv/classes_humblewood.csv') }}
