@@ -47,20 +47,24 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: deep purple
-      accent: deep purple
+      primary: custom
+      #accent: deep purple
     # Light Mode
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: blue
-      accent: deep orange
+      primary: custom
+      #accent: deep orange
   font:
     text: Quicksand
     code: Fira Code
   icon:
-    logo: fontawesome/solid/microscope
+    logo: fontawesome/solid/dragon
+
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
 
 # Plugins
 plugins:
