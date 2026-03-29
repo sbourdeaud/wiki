@@ -12,7 +12,7 @@ repo_url: https://github.com/sbourdeaud/wiki
 watch:
   - includes
 theme:
-  name: material
+  name: materialx
   features:
     - announce.dismiss
     - content.action.edit
@@ -71,17 +71,19 @@ plugins:
   #- blog
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - exporter:
-      formats:
-        pdf:
-          enabled: !ENV [MKDOCS_EXPORTER_PDF_ENABLED, true]
-          explicit: true
-          concurrency: 4
-      buttons:
-        - title: Download as PDF
-          icon: material-file-download-outline
-          enabled: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.enabled
-          attributes: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.attributes
+  #- exporter:
+  #    formats:
+  #      pdf:
+  #        enabled: !ENV [MKDOCS_EXPORTER_PDF_ENABLED, true]
+  #        explicit: true
+  #        concurrency: 4
+  #    buttons:
+  #      - title: Download as PDF
+  #        icon: material-file-download-outline
+  #        enabled: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.enabled
+  #        attributes: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.attributes
+  - page-to-pdf:
+      disableOnServe  : false 
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
